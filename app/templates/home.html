@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+  <h1>{{ user }}'s Cookbook!</h1>
+
+      <h2>{{ featured }}</h2>
+      
+      {% for recipe in recipes %}
+        <div>{{ recipe }}</div>
+      {% endfor %}
+  </body>
+</html>
